@@ -14,7 +14,7 @@
             foreach (char s in startStr) endStr = s + endStr;            
             Console.WriteLine(endStr);
             if (endStr == startStr) Console.WriteLine("Является ли строка палиндромомбез учёта пробелов и регистра? Является!");
-            else Console.WriteLine("Является ли строка палиндромомбез учёта пробелов и регистра? Не является!");
+            else Console.WriteLine("Является ли строка палиндромом без учёта пробелов и регистра? Не является!");
 
         }
     }
